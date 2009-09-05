@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=320; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+    <style type="text/css">
+    body {
+      font-size:32px;
+      margin: 0;
+      font-family: Helvetica;
+      padding: 0;
+      background:#333333;
+      color:#ffffff;
+    }
+    h1 {
+      font-size:1em;
+
+    }
+    </style>
+    <link rel="apple-touch-icon" href="/i/apple-touch-icon.png">
+    <title>pingr</title>
+  </head>
+  <body>
+    {% if ok %}
+      <h1>Ping sent</h1>
+    {% else %}
+      <h1>Oops!</h1>
+    {% endif %}
+  </body>
+</html>
